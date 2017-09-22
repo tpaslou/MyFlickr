@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link href="myDesign.css" rel="stylesheet">
+        <script src='ajax.js'></script>
+
+        <title>Insert title here</title>
+    </head>
+    <body>
+
+        <input type='button' value='Home' class="nhbtn" onclick="location.href = 'index.html';" >
+
+
+        <div class='container1' >
+
+            Username:
+            <input id='uname' type="text" name='username' title='at least 8 characters' class='uname' required><br>
+
+
+            Password:
+            <input id='pass' type='password' name='pwd'  title='6 to 10 characters' class='password' required><br>
+
+            <input type='button' value='Sign In' class='btn' onclick='sendNamePass();'><br>
+            <div id='ajaxContent1'></div>
+
+
+        </div>
+
+
+
+
+    </body>
+</html>

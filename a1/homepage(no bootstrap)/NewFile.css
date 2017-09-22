@@ -1,0 +1,208 @@
+#homepage{
+    background-image:url(wall.jpg)
+}
+
+#secondpage{
+    background-color:blanchedalmond
+}
+
+#thirdpage{
+    background-color: darkgrey
+}
+
+#fourthpage{
+    background-color:azure
+    
+}
+
+#fifthpage{
+    background-color:darkkhaki
+    
+}
+
+mark {
+    background-color:lightslategrey;
+    
+}
+
+
+/* main page welcome pic */
+#header{
+    text-align: center;
+    color:cornsilk
+}
+
+
+#nav{
+    text-align: center;
+    color: cornsilk
+    
+}
+   
+#headers{
+    
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#section{
+    
+    text-align: center;
+}
+
+
+#footer{
+  
+    color: cornsilk;
+}
+
+
+/*inside hobbies*/
+#cs{
+text-align: center;    
+}
+
+/* main page table */
+
+/* unvisited link */
+a.ex1, a.ex2, a.ex3, a.ex4:link {
+    color: red;
+}
+
+/* visited link */
+a.ex1, a.ex2, a.ex3, a.ex4:visited {
+    color:antiquewhite;
+}
+
+/* mouse over link */
+a.ex1:hover {
+    color: indianred;
+}
+
+/* main page table */
+a.ex2:hover {
+    color: indianred;
+}
+
+a.ex3:hover {
+    color: indianred;
+}
+
+a.ex4:hover {
+    color: indianred;
+}
+
+/* selected link in main page table */
+a.ex1:active {
+    color: black;
+}
+
+a.ex2:active {
+    color: black;
+}
+
+a.ex3:active {
+    color: black;
+}
+
+a.ex4:active {
+    color: black;
+}
+
+@media (min-width:320px) {}
+@media (min-width:481px){}
+@media (min-width:1025px){}
+
+/* for main page's footer sidebar and dropdown menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .sm {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .social:hover .sm {
+    background-color: red;
+}
+
+li.social {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* for inside hobbies section,dropdown menu,sidebar and hover */
+
+.social:hover .dropdown-content {
+    display: block;
+}
+
+div {
+    background-color: indianred;
+    padding: 10px;
+    display: none;
+}
+    
+span:hover + div {
+    display: block;
+}
+
+#sideb > li:last-child
+{
+    float:right;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+
+/* for inside hobbies section,to show images */
+
+img.hobbiez{
+   display:none;
+}
+
+p.one:hover + img{ 
+   display: block;
+}
+
+p.two:hover + img{ 
+   display: block;
+}

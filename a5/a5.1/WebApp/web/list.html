@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Member-List</title>
+        <link rel="icon" href="signup.png">
+        <script src='ajax.js'></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    </head>
+    <body onload="list()">
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" >Vital</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li ><a href="tiv.html">Tiv</a></li>
+                    <li ><a href="edit.html">Edit</a></li>
+                    <li class="active"><a href="list.html">Member List</a></li>
+                    <li ><a href="upload.html">Upload</a></li>
+                    <li><a onclick="delete_cookie('userCookie');delete_cookie('passwCookie')" href="index.html">Sign-out</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="Form1" id="wall"></div>
+               <div class="Form3" id="wall"> <div id="name"></div></div>
+    </body>
+</html>

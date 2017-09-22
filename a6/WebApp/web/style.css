@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2016, 10:03:06 PM
+    Author     : Geo
+*/
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
+.box {
+    max-height:144px;
+    float: left;
+    position: relative;
+    width: 103px;
+    height: 144px;
+    max-width:103px;
+    border: 1px solid black;
+
+}
+.boxInner {
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+    max-width:103px;
+    max-height:144px;
+
+
+}
+
+.boxInner img {
+    width: 100%;
+}
+
+
+.myButton:hover span.text-content{opacity: 1;
+
+}
+.myButton:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+
+}
+
+.myButton:hover:after {
+    width: 120%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+} 
+
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    text-align: center;
+    height: 150px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 108px;
+    opacity: 0;
+}
+
+
+body {
+    background-image:url("dark-blackboard.png");
+    background-repeat: repeat;
+    
+}
+.Form1{
+    margin: auto;
+    width: 50%; 
+    text-align: center;
+    color:#99999F ;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+.Form3{
+    margin: auto;
+    width: 70%; 
+    text-align: center;
+    color:#99999F ;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height:5000px;}
+.container {
+    padding: 25px;
+    position: fixed;
+}
+
+.form-login {
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+
+h4 { 
+ border:0 solid #fff; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
+}
+.Form2{
+    margin: auto;
+    width: 100%;
+    
+    color:#99999F ;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;}
+
+
+p.hdr {
+    text-align: center;
+    color: white;
+}
+.bimg {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}

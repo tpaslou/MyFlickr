@@ -1,0 +1,6 @@
+[1221/191842.554:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Gunbean\Reports\Dump: Το σύστημα δεν είναι σε θέση να εντοπίσει την καθορισμένη διαδρομή δίσκου. (0x3)
+[1221/191842.576:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Η διοχέτευση έχει τερματιστεί. (0x6D)
+[1221/191842.576:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Gunbean\Reports\Dump: Το σύστημα δεν είναι σε θέση να εντοπίσει την καθορισμένη διαδρομή δίσκου. (0x3)
+[1221/214325.735:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Gunbean\Reports\Dump: Το σύστημα δεν είναι σε θέση να εντοπίσει την καθορισμένη διαδρομή δίσκου. (0x3)
+[1221/214325.757:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Η διοχέτευση έχει τερματιστεί. (0x6D)
+[1221/214325.758:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Gunbean\Reports\Dump: Το σύστημα δεν είναι σε θέση να εντοπίσει την καθορισμένη διαδρομή δίσκου. (0x3)

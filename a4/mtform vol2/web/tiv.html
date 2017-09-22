@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="myDesign.css">   
+
+        <script src="exif.js"></script>    
+        <script src='ajax.js'></script>
+
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD75KZXjS2mIwleVLEmlsMTDwmQDciQ6uI&callback=initMap"
+  type="text/javascript"></script>        
+
+
+    <title>Tiled Image Viewer</title>
+
+</head>
+
+<body> 
+
+    <header class="headers" ><h1>TIV</h1> </header>
+
+
+    <div id="container" >
+
+        <form name="uploadForm" >
+            <p>
+                <input id="images" type="file" webkitdirectory mozdirectory directory name="myFiles"
+                       onchange="start();" multiple/>
+                <span id="list"></span>
+        </form>    
+
+        <div id="container2" >   
+            <header class="headers" ><h3>My Google Map</h3> </header>
+            <div id="map"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
